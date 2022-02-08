@@ -5,8 +5,8 @@ main:
   - title: "About"
     url: /about/
   - title: "Java"
-    url: /java/
+    url: /categories/java/
   - title: "AWS"
-    url: /aws/
+    url: /categories/aws/
   - title: "Categories"
     url: /categories/

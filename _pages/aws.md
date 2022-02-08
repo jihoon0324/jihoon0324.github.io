@@ -1,11 +1,13 @@
 ---
-title: "Jihoon`s blog"
+title: "Amazon Web Services"
 permalink: /categories/aws/
 layout: category
 author_profile: true
-taxonomy: AWS
+toc_sticky: true
+toc_ads : true
+taxonomy: aws
 ---
 
-## aws
+학교 과제 써야 함 
 
-aws ......... 
+
