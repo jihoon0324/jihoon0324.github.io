@@ -7,5 +7,7 @@ main:
     url: /categories/java/
   - title: "AWS"
     url: /categories/aws/
+  - title: "Python"
+    url: /categories/python/
   - title: "Categories"
     url: /categories/
