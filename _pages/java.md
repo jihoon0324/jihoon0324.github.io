@@ -8,4 +8,4 @@ toc_ads : true
 taxonomy: java
 ---
 
-공부 할꺼 쓸꺼임 
+공부 한거 쓸꺼임 
