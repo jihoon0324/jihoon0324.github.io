@@ -1,13 +1,11 @@
 # main links
 main:
-
+  
+  - title: "Home"
+    url: https://jihoon0324.github.io/
   - title: "About"
     url: /about/
-  - title: "Java"
-    url: /categories/java/
-  - title: "AWS"
-    url: /categories/aws/
-  - title: "Python"
-    url: /categories/python/
   - title: "Categories"
     url: /categories/
+  - title: "Tags"
+    url: /tags/
