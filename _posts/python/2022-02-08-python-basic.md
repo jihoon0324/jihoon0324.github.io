@@ -3,9 +3,9 @@ title: "Python"
 excerpt: "python study "
 
 categories:
-  - python
+  - Python
 tags:
-  - python
+  - Python
 last_modified_at: 2022-02-08
 ---
 

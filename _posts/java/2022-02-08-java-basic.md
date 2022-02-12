@@ -3,9 +3,9 @@ title: "Java"
 excerpt: "java study "
 
 categories:
-  - java
+  - Java
 tags:
-  - java
+  - Java
 last_modified_at: 2022-02-08
 ---
 
