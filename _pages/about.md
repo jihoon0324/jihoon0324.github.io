@@ -4,23 +4,32 @@ permalink: /about/
 layout: single
 ---
 
-## jihoon0324.github.io 블로그
-
-### A beginner developer who tries hard  
-
- #### My Skills
-
- ##### Java
- ##### JavaScript
- ##### Bootstrap
- ##### CSS
+# jihoon0324.github.io 블로그
 
 
 
 
- #### My Tools
+## Who an I
+
+Hello I`m Jihoon
+
+A beginner developer who tries hard  
+
+ 
+
+ ### My Skills
+
+ - Java  
+ - JavaScript  
+ - Bootstrap  
+ - CSS  
 
 
- ##### Eclipse IDE
- ##### NetBeans IDE
- ##### Visual Studio Code 
+
+
+ ### My Tools
+
+
+ - Eclipse IDE
+ - NetBeans IDE
+ - Visual Studio Code 
