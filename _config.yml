@@ -104,7 +104,7 @@ analytics:
 author:
   name             : "Jihoon Oh"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A beginner developer who tries hard"
+  bio              : # ""
   location         : "Calgary.AB"
   email            : 
   links:
