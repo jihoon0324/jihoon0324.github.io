@@ -13,7 +13,7 @@ layout: single
 
 Hello I`m Jihoon
 
-A beginner developer who tries hard  
+
 
  
 ###  My Skills
