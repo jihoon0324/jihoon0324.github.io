@@ -9,15 +9,14 @@ layout: single
 
 
 
-## Who an I
+##  Who an I ?
 
 Hello I`m Jihoon
 
 A beginner developer who tries hard  
 
  
-
- ### My Skills
+###  My Skills
 
  - Java  
  - JavaScript  
@@ -27,7 +26,7 @@ A beginner developer who tries hard
 
 
 
- ### My Tools
+### My Tools
 
 
  - Eclipse IDE
