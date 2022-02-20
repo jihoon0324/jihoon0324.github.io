@@ -9,7 +9,7 @@ layout: single
 
 
 
-##  Who an I ?
+##  Who am I ?
 
 Hello I`m Jihoon
 
