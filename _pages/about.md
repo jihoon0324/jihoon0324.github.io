@@ -6,7 +6,7 @@ layout: single
 
 # jihoon0324.github.io 블로그
 
-
+This is a space where I organize what I personally studied.
 
 
 ##  Who am I ?
