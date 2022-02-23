@@ -141,7 +141,7 @@ footer:
       url: "https://github.com/jihoon0324"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/jihoon-oh-30585a204/"
+    # url: "https://www.linkedin.com/in/jihoon-oh-30585a204/"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
