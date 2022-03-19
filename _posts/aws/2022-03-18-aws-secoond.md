@@ -11,4 +11,4 @@ last_modified_at: 2022-03-18
 
 # Website construction phase
 
-내용
+The purpose of this blog is to put the actual website on the server and run it. Let's use the functionality in AWS to drive the actual website.
