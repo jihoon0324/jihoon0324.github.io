@@ -30,3 +30,6 @@ Sequence
 2. Subnetting
 
 3. Create an Internet gateway
+
+
+4. Making a writing table
