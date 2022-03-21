@@ -28,3 +28,5 @@ Sequence
 1. Create VPC
 
 2. Subnetting
+
+3. Create an Internet gateway
