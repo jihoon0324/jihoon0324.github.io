@@ -26,3 +26,5 @@ Sequence
 
 
 1. Create VPC
+
+2. Subnetting
