@@ -21,6 +21,7 @@ Sequence
 It is vpn that makes it work as if it is actually on the same network but on another network.
 
 2. Subnetting
+     What is Subnetting?
 
 
 3. Create an Internet gateway
