@@ -16,7 +16,13 @@ The purpose of this blog is to put the actual website on the server and run it. 
 Sequence
 
 1. Create vpc
+     What is VPC?
+  It is not a real private network, but a virtual private network.
+It is vpn that makes it work as if it is actually on the same network but on another network.
+
 2. Subnetting
+
+
 3. Create an Internet gateway
 4. Making a writing table
 
@@ -29,6 +35,8 @@ First of all . log in with your account
 1. Create VPC
 
 2. Subnetting
+
+
 
 3. Create an Internet gateway
 
