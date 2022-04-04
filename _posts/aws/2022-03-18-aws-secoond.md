@@ -13,7 +13,7 @@ last_modified_at: 2022-03-18
 
 The purpose of this blog is to put the actual website on the server and run it. Let's use the functionality in AWS to drive the actual website.
 
-Sequence
+
 
 1. Create vpc
      What is VPC?
@@ -30,16 +30,22 @@ Subnetting is the process of creating a subnetwork (also known as a subnet) with
   An Internet Gateway is a redundant, horizontally scaled, and is a highly available VPC component. It allows communication between instances in your VPC and the internet using VPC route tables for internet-routable traffic.
 
 
-4. Making a writing table
+
 
 
 ---------------------------------------------------------------------------------------
+Sequence
+
 First of all . log in with your account in AWS
 
 
 
 
 1. Create VPC
+
+
+
+
 
 2. Subnetting
 
