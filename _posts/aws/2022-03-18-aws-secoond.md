@@ -25,7 +25,11 @@ It is vpn that makes it work as if it is actually on the same network but on ano
 Subnetting is the process of creating a subnetwork (also known as a subnet) within a network. Network interfaces and devices within a subnet can communicate with each other directly. Routers facilitate communication between different subnets.
 
 3. Create an Internet gateway
-  
+  what is gateway
+
+  An Internet Gateway is a redundant, horizontally scaled, and is a highly available VPC component. It allows communication between instances in your VPC and the internet using VPC route tables for internet-routable traffic.
+
+
 4. Making a writing table
 
 
