@@ -30,7 +30,7 @@ It is vpn that makes it work as if it is actually on the same network but on ano
 
 
 ---------------------------------------------------------------------------------------
-First of all . log in with your account
+First of all . log in with your account in AWS
 
 
 
