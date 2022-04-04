@@ -22,11 +22,11 @@ It is vpn that makes it work as if it is actually on the same network but on ano
 
 2. Subnetting
      What is Subnetting?
-
+Subnetting is the process of creating a subnetwork (also known as a subnet) within a network. Network interfaces and devices within a subnet can communicate with each other directly. Routers facilitate communication between different subnets.
 
 3. Create an Internet gateway
-4. 
-5. Making a writing table
+  
+4. Making a writing table
 
 
 ---------------------------------------------------------------------------------------
