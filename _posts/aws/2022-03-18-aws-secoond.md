@@ -25,7 +25,8 @@ It is vpn that makes it work as if it is actually on the same network but on ano
 
 
 3. Create an Internet gateway
-4. Making a writing table
+4. 
+5. Making a writing table
 
 
 ---------------------------------------------------------------------------------------
