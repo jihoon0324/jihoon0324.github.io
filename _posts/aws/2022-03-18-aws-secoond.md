@@ -33,6 +33,7 @@ First of all . log in with your account
 
 
 
+
 1. Create VPC
 
 2. Subnetting
