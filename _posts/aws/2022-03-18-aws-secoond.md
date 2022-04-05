@@ -79,12 +79,22 @@ select vpc
 
 4. Create Route table
 
-![setup_first](/image/AWS_blog_2/gateway3.png)  
-![setup_first](/image/AWS_blog_2/gateway3.png)  
-![setup_first](/image/AWS_blog_2/gateway3.png)  
-![setup_first](/image/AWS_blog_2/gateway3.png)  
+![setup_first](/image/AWS_blog_2/route1.png)  
+
+A table is created in the vpc I created
 
 
+![setup_first](/image/AWS_blog_2/route2.png) 
+
+If you click the vpc router table you just created, you can see the router information at the bottom.
 
 
-5. Making a writing table
+![setup_first](/image/AWS_blog_2/route3.png)  
+
+![setup_first](/image/AWS_blog_2/route5.png)  
+
+Check that status is active
+
+
+5. Create EC2 server 
+
