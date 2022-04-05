@@ -98,4 +98,32 @@ Check that status is active
 
 5. Create EC2 server 
 
+
+![setup_first](/image/AWS_blog_2/Ec2.png) 
+
+
 I create a server by clicking EC2 in the AWS service menu.
+
+
+
+ ![setup_first](/image/AWS_blog_2/Ec2_2.png)  
+
+I used Amazon Linux. Use the desired Amazon Machine Image and press select
+
+![setup_first](/image/AWS_blog_2/Ec2_3.png)  
+Then, set the instance type you want. I used the free version.
+
+
+![setup_first](/image/AWS_blog_2/Ec2_4.png)  
+
+Subnets are automatically added when you select the VPC you selected for the network.
+
+
+
+![setup_first](/image/AWS_blog_2/Ec2_5.png)  
+When creating the security group, I allowed only SSH and HTTP to the security group first. I will connect to the newly created server from the outside through SSH, and I will use apache as the web server, so I made a security group that allows HTTP(80). You can set this part according to your situation.
+
+
+![setup_first](/image/AWS_blog_2/Ec2_6.png)  
+
+Finally, you can download the key used to connect to the server in the review (STEP 7). You must have the corresponding key to access the server , so make sure to keep it after downloading . It is impossible to create a server without downloading, so you must download it and never delete it.
