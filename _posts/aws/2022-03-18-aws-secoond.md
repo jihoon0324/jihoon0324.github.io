@@ -98,3 +98,4 @@ Check that status is active
 
 5. Create EC2 server 
 
+I create a server by clicking EC2 in the AWS service menu.
