@@ -171,7 +171,7 @@ As you can see, if you succeed in the server, you can access the ip address you 
 
 
 
-<video width="640" height="480" controls>
+  <video width="640" height="480" controls>
    <source src="/video/aws_1.mp4" type="video/mp4">
    </video>  
 
