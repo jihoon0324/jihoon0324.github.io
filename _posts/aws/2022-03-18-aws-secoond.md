@@ -54,28 +54,28 @@ This is to automatically name the server created on the network I created.
 
 2. Subnetting
 
-![setup_first](/image/AWS_blog_2/subnet1.png)  
+ ![setup_first](/image/AWS_blog_2/subnet1.png)  
 
-Click Subnets in the line below your VPCS and then click "CREATE subnet", the screen above appears. If you open the vpc ID select bar here, you can check the name of the VPC you created. Click the name of the vpc to open the subnet setting section. A total of 4 subnets were created, 2 web subnets and 2 db subnets were created. For security reasons, I created two different subnets each.
-![setup_first](/image/AWS_blog_2/subnet2.png)  
-When you create a subnet, the following table is displayed. Let's check if the subnet address is the same as the subnet address you created.
+ Click Subnets in the line below your VPCS and then click "CREATE subnet", the screen above appears. If you open the vpc ID select bar here, you can check the name of the VPC you created. Click the name of the vpc to open the subnet setting section. A total of 4 subnets were created, 2 web subnets and 2 db subnets were created. For security reasons, I created two different subnets each.
+ ![setup_first](/image/AWS_blog_2/subnet2.png)  
+ When you create a subnet, the following table is displayed. Let's check if the subnet address is the same as the subnet address you created.
 
 
-3. Create an Internet gateway
-I  create an internet gateway and match it with the IPv4 address (10.200.0.0/16) created in VPC .
+3. Create an Internet gateway  
+ I  create an internet gateway and match it with the IPv4 address (10.200.0.0/16) created in VPC .
 
-![setup_first](/image/AWS_blog_2/gateway1.png) 
+ ![setup_first](/image/AWS_blog_2/gateway1.png) 
 
-click  the create internet gateway and add name 
-in my case I wrote name as sait_blog  and click the create internet gateway button.
+ click  the create internet gateway and add name 
+ in my case I wrote name as sait_blog  and click the create internet gateway button.
 
-![setup_first](/image/AWS_blog_2/gateway2.png)  
-now click the actions and select attac to VPC
+ ![setup_first](/image/AWS_blog_2/gateway2.png)  
+ now click the actions and select attac to VPC
 
-![setup_first](/image/AWS_blog_2/gateway3.png)  
+ ![setup_first](/image/AWS_blog_2/gateway3.png)  
 
-this is for matching gateway to VPC
-select vpc 
+ this is for matching gateway to VPC
+ select vpc 
 
 4. Create Route table
 
