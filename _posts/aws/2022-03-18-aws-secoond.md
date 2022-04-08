@@ -48,101 +48,101 @@ First of all . log in with your account in AWS
     ![setup_first](/image/AWS_blog_2/vpc_2.png)  
     Set the vpc name in the Name tag section. I did it with sait_blog. Any name is possible. In case of using various vpc, it is also possible with a domain name ex) sait_blog.com.  
    ![setup_first](/image/AWS_blog_2/vpc_3.png)  
-Right-click on vpc and click Edit DNS hostnames.
-Then a new window will open, set DNS hostname to ENable.
-This is to automatically name the server created on the network I created.
+   Right-click on vpc and click Edit DNS hostnames.
+   Then a new window will open, set DNS hostname to ENable.
+   This is to automatically name the server created on the network I created.
 
 2. Subnetting
 
- ![setup_first](/image/AWS_blog_2/subnet1.png)  
+    ![setup_first](/image/AWS_blog_2/subnet1.png)  
 
- Click Subnets in the line below your VPCS and then click "CREATE subnet", the screen above appears. If you open the vpc ID select bar here, you can check the name of the VPC you created. Click the name of the vpc to open the subnet setting section. A total of 4 subnets were created, 2 web subnets and 2 db subnets were created. For security reasons, I created two different subnets each.
- ![setup_first](/image/AWS_blog_2/subnet2.png)  
- When you create a subnet, the following table is displayed. Let's check if the subnet address is the same as the subnet address you created.
+    Click Subnets in the line below your VPCS and then click "CREATE subnet", the screen above appears. If you open the vpc ID select bar here, you can check the name of the VPC you created. Click the name of the vpc to open the subnet setting section. A total of 4 subnets were created, 2 web subnets and 2 db subnets were created. For security reasons, I created two different subnets each.
+    ![setup_first](/image/AWS_blog_2/subnet2.png)  
+    When you create a subnet, the following table is displayed. Let's check if the subnet address is the same as the subnet address you created.
 
 
-3. Create an Internet gateway  
- I  create an internet gateway and match it with the IPv4 address (10.200.0.0/16) created in VPC .
+3.  Create an Internet gateway  
+    I  create an internet gateway and match it with the IPv4 address (10.200.0.0/16) created in VPC .
 
- ![setup_first](/image/AWS_blog_2/gateway1.png) 
+    ![setup_first](/image/AWS_blog_2/gateway1.png) 
 
- click  the create internet gateway and add name 
- in my case I wrote name as sait_blog  and click the create internet gateway button.
+    click  the create internet gateway and add name 
+    in my case I wrote name as sait_blog  and click the create internet gateway button.
 
- ![setup_first](/image/AWS_blog_2/gateway2.png)  
- now click the actions and select attac to VPC
+    ![setup_first](/image/AWS_blog_2/gateway2.png)  
+    now click the actions and select attac to VPC
 
- ![setup_first](/image/AWS_blog_2/gateway3.png)  
+    ![setup_first](/image/AWS_blog_2/gateway3.png)  
 
- this is for matching gateway to VPC
- select vpc 
+     this is for matching gateway to VPC
+     select vpc 
 
 4. Create Route table
 
-![setup_first](/image/AWS_blog_2/route1.png)  
+     ![setup_first](/image/AWS_blog_2/route1.png)  
 
-A table is created in the vpc I created
-
-
-![setup_first](/image/AWS_blog_2/route2.png) 
-
-If you click the vpc router table you just created, you can see the router information at the bottom.
+      A table is created in the vpc I created
 
 
-![setup_first](/image/AWS_blog_2/route3.png)  
+      ![setup_first](/image/AWS_blog_2/route2.png) 
 
-![setup_first](/image/AWS_blog_2/route5.png)  
-
-Check that status is active
+      If you click the vpc router table you just created, you can see the router information  at the bottom.
 
 
-5. Create EC2 server 
+     ![setup_first](/image/AWS_blog_2/route3.png)  
+
+     ![setup_first](/image/AWS_blog_2/route5.png)  
+
+      Check that status is active
 
 
-![setup_first](/image/AWS_blog_2/Ec2.png) 
+4. Create EC2 server 
 
 
-I create a server by clicking EC2 in the AWS service menu.
+     ![setup_first](/image/AWS_blog_2/Ec2.png) 
 
 
-
- ![setup_first](/image/AWS_blog_2/Ec2_2.png)  
-
-I used Amazon Linux. Use the desired Amazon Machine Image and press select
-
-![setup_first](/image/AWS_blog_2/Ec2_3.png)  
-Then, set the instance type you want. I used the free version.
-
-
-![setup_first](/image/AWS_blog_2/Ec2_4.png)  
-
-Subnets are automatically added when you select the VPC you selected for the network.
+      I create a server by clicking EC2 in the AWS service menu.
 
 
 
-![setup_first](/image/AWS_blog_2/Ec2_5.png)  
-When creating the security group, I allowed only SSH and HTTP to the security group first. I will connect to the newly created server from the outside through SSH, and I will use apache as the web server, so I made a security group that allows HTTP(80). You can set this part according to your situation.
+      ![setup_first](/image/AWS_blog_2/Ec2_2.png)  
+
+      I used Amazon Linux. Use the desired Amazon Machine Image and press select
+
+      ![setup_first](/image/AWS_blog_2/Ec2_3.png)  
+      Then, set the instance type you want. I used the free version.
 
 
-![setup_first](/image/AWS_blog_2/Ec2_6.png)  
+      ![setup_first](/image/AWS_blog_2/Ec2_4.png)  
 
-Finally, you can download the key used to connect to the server in the review (STEP 7). You must have the corresponding key to access the server , so make sure to keep it after downloading . It is impossible to create a server without downloading, so you must download it and never delete it.
+      Subnets are automatically added when you select the VPC you selected for the network.
 
 
 
-https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html
+      ![setup_first](/image/AWS_blog_2/Ec2_5.png)  
+      When creating the security group, I allowed only SSH and HTTP to the security group first. I will connect to the newly created server from the outside through SSH, and I will use apache as the web server, so I made a security group that allows HTTP(80). You can set this part according to your situation.
 
-There are two ways to access the server. There is a way to access from a Linux server and a way to access from a Windows server with putty. Please refer to the user guide on the Amazon site for this access method
+
+      ![setup_first](/image/AWS_blog_2/Ec2_6.png)  
+
+      Finally, you can download the key used to connect to the server in the review (STEP 7). You must have the corresponding key to access the server , so make sure to keep it after downloading . It is impossible to create a server without downloading, so you must download it and never delete it.
+
+
+
+      https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html
+
+      There are two ways to access the server. There is a way to access from a Linux server and a way to access from a Windows server with putty. Please refer to the user guide on the Amazon site for this access method
 
 
 6. DNS matching Elastic Ips
-After checking the connection through putty, assign a fixed authorized ips to the dns and match the server
+      After checking the connection through putty, assign a fixed authorized ips to the dns and match the server
 
-Elastic IPs
+      Elastic IPs
 
 
 
-![setup_first](/image/AWS_blog_2/ips_1.png)  
+      ![setup_first](/image/AWS_blog_2/ips_1.png)  
 
 In the navigation with the Network & Security section, select elastic ip and click allocate Elastic ip address
 
