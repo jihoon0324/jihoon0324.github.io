@@ -144,38 +144,38 @@ First of all . log in with your account in AWS
 
       ![setup_first](/image/AWS_blog_2/ips_1.png)  
 
-In the navigation with the Network & Security section, select elastic ip and click allocate Elastic ip address
+      In the navigation with the Network & Security section, select elastic ip and click allocate Elastic ip address
 
-![setup_first](/image/AWS_blog_2/ips_2.png)  
+      ![setup_first](/image/AWS_blog_2/ips_2.png)  
 
-I set the network border group to US-East -1, so that's how I set it. Create an IP address after setting it to the network border group that you set
+      I set the network border group to US-East -1, so that's how I set it. Create an IP address after setting it to the network border group that you set
 
-![setup_first](/image/AWS_blog_2/ips_3.png)  
-
-
-![setup_first](/image/AWS_blog_2/ips_4.png)  
-
-If IP is set, you can set the instance by clicking Associate Elastic ip address on the Action button. Set the appropriate instance
-
-![setup_first](/image/AWS_blog_2/ips_5.png)  
+      ![setup_first](/image/AWS_blog_2/ips_3.png)  
 
 
-Finally, you can see that the public ipv5 address has changed. Now a website server has been created. You can access it by entering the ipv4 address or ipv4 DNS address on the homepage.
+      ![setup_first](/image/AWS_blog_2/ips_4.png)  
+
+      If IP is set, you can set the instance by clicking Associate Elastic ip address on the Action button. Set the appropriate instance
+
+      ![setup_first](/image/AWS_blog_2/ips_5.png)  
 
 
-
-![setup_first](/image/AWS_blog_2/last.png)  
-
-
-As you can see, if you succeed in the server, you can access the ip address you created. But I don't know why, but I was able to access it about 30 minutes after all the completion. We will end the server setting and gate and subnet setting using aws.
+      Finally, you can see that the public ipv5 address has changed. Now a website server has been created. You can access it by entering the ipv4 address or ipv4 DNS address on the homepage.
 
 
 
-  <video width="640" height="480" controls>
-   <source src="/video/aws_1.mp4" type="video/mp4">
-   </video>  
+      ![setup_first](/image/AWS_blog_2/last.png)  
 
-   <video width="640" height="480" controls>
-   <source src="/video/aws_2.mp4" type="video/mp4">
-   </video>  
+
+      As you can see, if you succeed in the server, you can access the ip address you created. But I don't know why, but I was able to access it about 30 minutes after all the completion. We will end the server setting and gate and subnet setting using aws.
+
+
+
+      <video width="640" height="480" controls>
+     <source src="/video/aws_1.mp4" type="video/mp4">
+     </video>  
+
+     <video width="640" height="480" controls>
+     <source src="/video/aws_2.mp4" type="video/mp4">
+     </video>  
    
