@@ -45,9 +45,9 @@ First of all . log in with your account in AWS
   ![setup_first](/image/AWS_blog_2/vpc_1.png)  
 
    Create a vpc by clicking vpc in the service menu
-    ![setup_first](/image/AWS_blog_2/vpc_2.png)  
+  ![setup_first](/image/AWS_blog_2/vpc_2.png)  
     Set the vpc name in the Name tag section. I did it with sait_blog. Any name is possible. In case of using various vpc, it is also possible with a domain name ex) sait_blog.com.  
-   ![setup_first](/image/AWS_blog_2/vpc_3.png)  
+  ![setup_first](/image/AWS_blog_2/vpc_3.png)  
    Right-click on vpc and click Edit DNS hostnames.
    Then a new window will open, set DNS hostname to ENable.
    This is to automatically name the server created on the network I created.
