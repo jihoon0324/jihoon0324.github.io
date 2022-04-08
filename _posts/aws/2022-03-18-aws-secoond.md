@@ -34,7 +34,7 @@ Subnetting is the process of creating a subnetwork (also known as a subnet) with
 
 
 ---------------------------------------------------------------------------------------
-Sequence
+# Sequence
 
 First of all . log in with your account in AWS
 
