@@ -119,7 +119,6 @@ First of all . log in with your account in AWS
       Subnets are automatically added when you select the VPC you selected for the network.
 
 
-
       ![setup_first](/image/AWS_blog_2/ec2_5.png)  
       When creating the security group, I allowed only SSH and HTTP to the security group first. I will connect to the newly created server from the outside through SSH, and I will use apache as the web server, so I made a security group that allows HTTP(80). You can set this part according to your situation.
 
