@@ -75,6 +75,7 @@ First of all . log in with your account in AWS
 
     ![setup_first](/image/AWS_blog_2/gateway3.png)  
 
+
      this is for matching gateway to VPC
      select vpc 
 
