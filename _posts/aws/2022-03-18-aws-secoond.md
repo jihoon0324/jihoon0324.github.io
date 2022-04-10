@@ -61,6 +61,7 @@ First of all . log in with your account in AWS
     When you create a subnet, the following table is displayed. Let's check if the subnet address is the same as the subnet address you created.
 
 
+
 3.  Create an Internet gateway  
     I  create an internet gateway and match it with the IPv4 address (10.200.0.0/16) created in VPC .
 
