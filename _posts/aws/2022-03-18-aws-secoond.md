@@ -57,9 +57,6 @@ First of all . log in with your account in AWS
     ![setup_first](/image/AWS_blog_2/subnet1.png)  
 
 
-
-
-
     Click Subnets in the line below your VPCS and then click "CREATE subnet", the screen above appears. If you open the vpc ID select bar here, you can check the name of the VPC you created. Click the name of the vpc to open the subnet setting section. A total of 4 subnets were created, 2 web subnets and 2 db subnets were created. For security reasons, I created two different subnets each.
     ![setup_first](/image/AWS_blog_2/subnet2.png)  
     When you create a subnet, the following table is displayed. Let's check if the subnet address is the same as the subnet address you created.
@@ -103,7 +100,7 @@ First of all . log in with your account in AWS
       Check that status is active
 
 
-4. Create EC2 server 
+5. Create EC2 server 
 
 
      ![setup_first](/image/AWS_blog_2/Ec2.png) 
