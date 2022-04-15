@@ -23,6 +23,7 @@ last_modified_at: 2022-02-16
 # printf
 
 
+
 System.out.printf("abcd" : %d",10)
 
 System.out.printf("%d%d%d"",10 ,10, 10)
