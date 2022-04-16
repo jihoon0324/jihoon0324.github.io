@@ -28,6 +28,7 @@ System.out.printf("abcd" : %d",10)
 
 System.out.printf("%d%d%d"",10 ,10, 10)
 
+
 %d: int
 %f : double
 %s : String
